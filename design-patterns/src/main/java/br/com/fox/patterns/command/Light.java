@@ -2,21 +2,21 @@ package br.com.fox.patterns.command;
 
 public class Light {
 
-	private String location;
+	private String identification;
 	
-	public Light(String location) {
+	public Light(String identification) {
 		
-		this.location = location;
+		this.identification = identification;
 	}
 	
 	public void on() {
 		
-		System.out.println(location + " light is ON.");
+		System.out.println(identification + " light is ON.");
 	}
 	
 	public void off() {
 		
-		System.out.println(location + " light is OFF.");
+		System.out.println(identification + " light is OFF.");
 	}
 	
 }
